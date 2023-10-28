@@ -12,11 +12,18 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/route53 v1.30.2
 	github.com/btcsuite/btcd/btcec/v2 v2.2.0
 	github.com/cespare/cp v0.1.0
+< dependabot/go_modules/github.com/consensys/gnark-crypto-0.12.0
+	github.com/cloudflare/cloudflare-go v0.14.0
+	github.com/cockroachdb/pebble v0.0.0-20230209160836-829675f94811
+	github.com/consensys/gnark-crypto v0.12.0
+	github.com/crate-crypto/go-kzg-4844 v0.2.0
+=
 	github.com/cloudflare/cloudflare-go v0.79.0
 	github.com/cockroachdb/errors v1.8.1
 	github.com/cockroachdb/pebble v0.0.0-20230928194634-aa077af62593
 	github.com/consensys/gnark-crypto v0.12.1
 	github.com/crate-crypto/go-kzg-4844 v0.3.0
+> master
 	github.com/davecgh/go-spew v1.1.1
 	github.com/deckarep/golang-set/v2 v2.1.0
 	github.com/docker/docker v24.0.5+incompatible
@@ -58,6 +65,20 @@ require (
 	github.com/rs/cors v1.7.0
 	github.com/shirou/gopsutil v3.21.4-0.20210419000835-c7a38de76ee5+incompatible
 	github.com/status-im/keycard-go v0.2.0
+< dependabot/go_modules/github.com/consensys/gnark-crypto-0.12.0
+	github.com/stretchr/testify v1.8.2
+	github.com/supranational/blst v0.3.11-0.20230406105308-e9dfc5ee724b
+	github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
+	github.com/tyler-smith/go-bip39 v1.1.0
+	github.com/urfave/cli/v2 v2.17.2-0.20221006022127-8f469abc00aa
+	golang.org/x/crypto v0.10.0
+	golang.org/x/exp v0.0.0-20230206171751-46f607a40771
+	golang.org/x/sync v0.1.0
+	golang.org/x/sys v0.9.0
+	golang.org/x/text v0.10.0
+	golang.org/x/time v0.0.0-20220922220347-f3bd1da661af
+	golang.org/x/tools v0.7.0
+=
 	github.com/stretchr/testify v1.8.4
 	github.com/supranational/blst v0.3.11
 	github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
@@ -71,6 +92,7 @@ require (
 	golang.org/x/text v0.13.0
 	golang.org/x/time v0.3.0
 	golang.org/x/tools v0.13.0
+> master
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 	gopkg.in/yaml.v3 v3.0.1
 )
@@ -137,9 +159,16 @@ require (
 	github.com/tklauser/go-sysconf v0.3.12 // indirect
 	github.com/tklauser/numcpus v0.6.1 // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
+< dependabot/go_modules/github.com/consensys/gnark-crypto-0.12.0
+	golang.org/x/mod v0.9.0 // indirect
+	golang.org/x/net v0.10.0 // indirect
+	golang.org/x/xerrors v0.0.0-20220517211312-f3a8303e98df // indirect
+	google.golang.org/protobuf v1.28.1 // indirect
+=
 	golang.org/x/mod v0.12.0 // indirect
 	golang.org/x/net v0.17.0 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
+>master
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gotest.tools/v3 v3.5.1 // indirect
 	rsc.io/tmplfunc v0.0.3 // indirect
